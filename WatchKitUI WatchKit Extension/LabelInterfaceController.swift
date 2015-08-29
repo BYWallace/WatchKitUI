@@ -11,11 +11,15 @@ import Foundation
 
 
 class LabelInterfaceController: WKInterfaceController {
+    @IBOutlet weak var myLabel: WKInterfaceLabel!
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        
+        myLabel.setText("Hello World")
+        myLabel.setTextColor(UIColor.redColor())
     }
 
     override func willActivate() {
