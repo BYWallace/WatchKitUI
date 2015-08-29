@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE41A8E21B920E8E00B72C9C /* LabelInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41A8E11B920E8E00B72C9C /* LabelInterfaceController.swift */; };
 		FE63B8C91B8DD661002C06F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE63B8C81B8DD661002C06F7 /* AppDelegate.swift */; };
 		FE63B8CB1B8DD661002C06F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE63B8CA1B8DD661002C06F7 /* ViewController.swift */; };
 		FE63B8CE1B8DD661002C06F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE63B8CC1B8DD661002C06F7 /* Main.storyboard */; };
 		FE63B8D01B8DD661002C06F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE63B8CF1B8DD661002C06F7 /* Images.xcassets */; };
 		FE63B8D31B8DD661002C06F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE63B8D11B8DD661002C06F7 /* LaunchScreen.xib */; };
 		FE63B8DF1B8DD661002C06F7 /* WatchKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE63B8DE1B8DD661002C06F7 /* WatchKitUITests.swift */; };
-		FE63B8F11B8DD728002C06F7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE63B8F01B8DD728002C06F7 /* InterfaceController.swift */; };
 		FE63B8F31B8DD728002C06F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE63B8F21B8DD728002C06F7 /* Images.xcassets */; };
 		FE63B8F71B8DD728002C06F7 /* WatchKitUI WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FE63B8F61B8DD728002C06F7 /* WatchKitUI WatchKit App.app */; };
 		FE63B8FF1B8DD728002C06F7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE63B8FD1B8DD728002C06F7 /* Interface.storyboard */; };
@@ -60,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE41A8E01B920E8D00B72C9C /* WatchKitUI WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchKitUI WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE41A8E11B920E8E00B72C9C /* LabelInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelInterfaceController.swift; sourceTree = "<group>"; };
 		FE63B8C31B8DD661002C06F7 /* WatchKitUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE63B8C71B8DD661002C06F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE63B8C81B8DD661002C06F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +74,6 @@
 		FE63B8DE1B8DD661002C06F7 /* WatchKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKitUITests.swift; sourceTree = "<group>"; };
 		FE63B8EC1B8DD728002C06F7 /* WatchKitUI WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchKitUI WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE63B8EF1B8DD728002C06F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE63B8F01B8DD728002C06F7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		FE63B8F21B8DD728002C06F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FE63B8F61B8DD728002C06F7 /* WatchKitUI WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKitUI WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE63B8FC1B8DD728002C06F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,9 +169,9 @@
 		FE63B8ED1B8DD728002C06F7 /* WatchKitUI WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				FE63B8F01B8DD728002C06F7 /* InterfaceController.swift */,
 				FE63B8F21B8DD728002C06F7 /* Images.xcassets */,
 				FE63B8EE1B8DD728002C06F7 /* Supporting Files */,
+				FE41A8E11B920E8E00B72C9C /* LabelInterfaceController.swift */,
 			);
 			path = "WatchKitUI WatchKit Extension";
 			sourceTree = "<group>";
@@ -178,6 +179,7 @@
 		FE63B8EE1B8DD728002C06F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE41A8E01B920E8D00B72C9C /* WatchKitUI WatchKit Extension-Bridging-Header.h */,
 				FE63B8EF1B8DD728002C06F7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -379,7 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE63B8F11B8DD728002C06F7 /* InterfaceController.swift in Sources */,
+				FE41A8E21B920E8E00B72C9C /* LabelInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +605,7 @@
 		FE63B9091B8DD728002C06F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -611,16 +614,20 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchKitUI WatchKit Extension/WatchKitUI WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FE63B90A1B8DD728002C06F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "WatchKitUI WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchKitUI WatchKit Extension/WatchKitUI WatchKit Extension-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -643,6 +650,7 @@
 				FE63B8E41B8DD661002C06F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE63B8E51B8DD661002C06F7 /* Build configuration list for PBXNativeTarget "WatchKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +659,7 @@
 				FE63B8E71B8DD661002C06F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE63B9051B8DD728002C06F7 /* Build configuration list for PBXNativeTarget "WatchKitUI WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +668,7 @@
 				FE63B9071B8DD728002C06F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE63B9081B8DD728002C06F7 /* Build configuration list for PBXNativeTarget "WatchKitUI WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +677,7 @@
 				FE63B90A1B8DD728002C06F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
