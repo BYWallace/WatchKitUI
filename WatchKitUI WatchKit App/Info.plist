@@ -29,6 +29,16 @@
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
 	<string>io.github.bywallace.WatchKitUI</string>
+	<key>LSApplicationCategoryType</key>
+	<array>
+		<string></string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Exo-Black.otf</string>
+		<string>Exo-BlackItalic.otf</string>
+		<string>Exo-Bold.otf</string>
+	</array>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
