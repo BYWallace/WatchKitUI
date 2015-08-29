@@ -18,8 +18,22 @@ class LabelInterfaceController: WKInterfaceController {
         
         // Configure interface objects here.
         
-        myLabel.setText("Hello World")
-        myLabel.setTextColor(UIColor.redColor())
+//        myLabel.setText("Hello World")
+//        myLabel.setTextColor(UIColor.redColor())
+        
+//        for family in UIFont.familyNames() as! [String] {
+//            println("fam: \(family)")
+//            
+//            for font in UIFont.fontNamesForFamilyName(family) {
+//                println(font)
+//            }
+//        }
+        
+        var boldFont = UIFont(name: "Exo-Bold", size: 15.0)!
+        var attributesDictionary = [NSFontAttributeName: boldFont, NSForegroundColorAttributeName: UIColor.redColor()]
+        var attributedString = NSAttributedString(string: "Hello Class", attributes: attributesDictionary)
+        
+        myLabel.setAttributedText(attributedString)
     }
 
     override func willActivate() {

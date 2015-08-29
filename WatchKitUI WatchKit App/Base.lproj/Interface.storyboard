@@ -4,6 +4,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Exo-BlackItalic.otf">
+            <string>Exo-BlackItalic</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Label Interface Controller-->
         <scene sceneID="aou-V4-d1y">
@@ -11,7 +16,7 @@
                 <controller id="AgC-eL-Hgc" customClass="LabelInterfaceController" customModule="WatchKitUI_WatchKit_Extension">
                     <items>
                         <label width="136" height="38.5" alignment="left" alpha="0.5" text="WatchKit Label!" textAlignment="center" id="8x4-2R-rlJ">
-                            <fontDescription key="font" type="italicSystem" pointSize="16"/>
+                            <fontDescription key="font" name="Exo-BlackItalic" family="Exo" pointSize="15"/>
                             <variation key="device=watch38mm">
                                 <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </variation>
