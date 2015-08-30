@@ -47,6 +47,7 @@
 		FE41A9301B9218C800B72C9C /* Exo-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE41A91D1B9218C800B72C9C /* Exo-ThinItalic.otf */; };
 		FE41A9311B9218C800B72C9C /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE41A91E1B9218C800B72C9C /* SIL Open Font License.txt */; };
 		FE62F8D61B936FDC0067305D /* ButtonInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62F8D51B936FDC0067305D /* ButtonInterfaceController.swift */; };
+		FE62F8DC1B937EBE0067305D /* SwitchInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62F8DB1B937EBE0067305D /* SwitchInterfaceController.swift */; };
 		FE63B8C91B8DD661002C06F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE63B8C81B8DD661002C06F7 /* AppDelegate.swift */; };
 		FE63B8CB1B8DD661002C06F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE63B8CA1B8DD661002C06F7 /* ViewController.swift */; };
 		FE63B8CE1B8DD661002C06F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE63B8CC1B8DD661002C06F7 /* Main.storyboard */; };
@@ -140,6 +141,7 @@
 		FE41A91D1B9218C800B72C9C /* Exo-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ThinItalic.otf"; sourceTree = "<group>"; };
 		FE41A91E1B9218C800B72C9C /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
 		FE62F8D51B936FDC0067305D /* ButtonInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonInterfaceController.swift; sourceTree = "<group>"; };
+		FE62F8DB1B937EBE0067305D /* SwitchInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchInterfaceController.swift; sourceTree = "<group>"; };
 		FE63B8C31B8DD661002C06F7 /* WatchKitUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE63B8C71B8DD661002C06F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE63B8C81B8DD661002C06F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 				FE63B8EE1B8DD728002C06F7 /* Supporting Files */,
 				FE41A8E11B920E8E00B72C9C /* LabelInterfaceController.swift */,
 				FE62F8D51B936FDC0067305D /* ButtonInterfaceController.swift */,
+				FE62F8DB1B937EBE0067305D /* SwitchInterfaceController.swift */,
 			);
 			path = "WatchKitUI WatchKit Extension";
 			sourceTree = "<group>";
@@ -569,6 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE41A8E21B920E8E00B72C9C /* LabelInterfaceController.swift in Sources */,
+				FE62F8DC1B937EBE0067305D /* SwitchInterfaceController.swift in Sources */,
 				FE62F8D61B936FDC0067305D /* ButtonInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
