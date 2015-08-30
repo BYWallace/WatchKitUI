@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="B2R-fw-Mrx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
@@ -30,6 +30,25 @@
                     </connections>
                 </controller>
             </objects>
+        </scene>
+        <!--Button Interface Controller-->
+        <scene sceneID="zZV-cI-h5r">
+            <objects>
+                <controller id="B2R-fw-Mrx" customClass="ButtonInterfaceController" customModule="WatchKitUI_WatchKit_Extension">
+                    <items>
+                        <button width="1" height="97.5" alignment="left" title="Press Me" backgroundImage="EasyButton" id="PDN-Ia-dxV">
+                            <variation key="device=watch42mm" title="Press Me!"/>
+                            <connections>
+                                <action selector="buttonPressed" destination="B2R-fw-Mrx" id="xH7-z0-Lpm"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="myButton" destination="PDN-Ia-dxV" id="Yoi-R3-2uA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="324" y="612"/>
         </scene>
     </scenes>
 </document>
